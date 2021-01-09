@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title></title>
+    <dateModified></dateModified>
+    <ownerName></ownerName>
+  </head>
+  <body>
+<outline text="Chapter 1 Introduction" _note="**middleware**: a layer of software on top of the operating system, is&#10;responsible for implementing the interacting model.  &#10;**World Wide Web** is the biggest distributed system. It runs on top of&#10;the Internet and presents a model in which everything looks like a&#10;document (Web page)">
+  <outline text="1.1 Use of computer networks">
+    <outline text="Home Applications" _note="**Pear to pear communication Applications**:   &#10;Person and remote database  &#10;electronic commerce  &#10;person-to-person communication  &#10;entertainment  &#10;ubiquitous computing">
+    </outline>
+    <outline text="1.1.4 social issues" _note="**network neutrality** : the same content should be treated similarly  &#10;network can spread movies or music easily, but the copyright firm may be&#10;threatened by it">
+    </outline>
+  </outline>
+  <outline text="1.2 Network Hardware" _note="two important dimensions: **transmission technology and scale**  &#10;transmission technology: **broadcast** and **point-to-point**&#10;&#10;**P2P**: exactly one sender and exactly one receiver is called&#10;**unicasting**  &#10;**Broadcast**">
+    <outline text="PAN" _note="PC and its wire or wireless peripherals">
+    </outline>
+    <outline text="LAN (Local Area Networks)" _note="Wired Lan:802.3 Ethernet  &#10;Wireless Lan: IEEE 802.11 (WIFI)&#10;&#10;classic Ethernet: every packet is in a queue and can not be sent at a&#10;same time.&#10;&#10;wireless and wired broadcast network can be divided into **static** and&#10;**dynamic designs.**  &#10;**dynamic design**: model: cellular dynamic design can be divided into&#10;centralized or decentralized. centralized is put the packet in inner&#10;order of algorithm.&#10;&#10;Home Lan:&#10;&#10;1.  easy to install&#10;&#10;2.  network and devices has to foolproof to install&#10;&#10;3.  low price&#10;&#10;4.  easy to expand&#10;&#10;5.  security and reliability">
+    </outline>
+    <outline text="WAN" _note="![](D:\OneDrive - Platinum\Uni\Semester 3\RN\Note\image-20201112144059101.png)&#10;&#10;In most WANs, the subnet consists of two distinct components:&#10;**transmission lines ** and **switching elements**. Transmission lines&#10;move bits between machines.   &#10;Most companies do not have transmission lines lying about, so instead&#10;they lease the lines from a telecommunications company.  &#10;Switching elements, or just **switches**, are specialized computers that&#10;connect two or more transmission lines. When data arrive on an incoming&#10;line, the switching element must choose an outgoing line on which to&#10;forward them.   &#10;These switching computers have been called by various names in the past;&#10;the name **router** is now most commonly used.&#10;&#10;The difference between LAN and WAN:&#10;&#10;1.  Usually in a WAN, the hosts and subnet are owned and operated by&#10;    different people.&#10;&#10;2.  A second difference is that the routers will usually connect&#10;    different kinds of networking technology.&#10;&#10;3.  final difference is in what is connected to the subnet">
+    </outline>
+    <outline text="1.2.5 Internetworks">
+    </outline>
+  </outline>
+  <outline text="1.3 Network Software" _note="Network is bound with the hardware and the software">
+    <outline text="1.3.1 Protocol Hierarchies(协议层次结构)" _note="**Protocol** is an agreement between the communicating parties on how&#10;communication is to proceed.(P29)  &#10;The entities comprising the corresponding layers on different machines&#10;are called **peers**.  &#10;Between each pair of adjacent layers is an **interface**.(P30)">
+    </outline>
+    <outline text="1.3.2 Design Issues for the Layers" _note="Protocol is">
+    </outline>
+    <outline text="1.3.3 Connection-Oriented Versus Connectionless Service" _note="Layers can offer two different types of service to the layers above&#10;them: **connection-oriented** and **connectionless**">
+      <outline text="connection-oriented" _note="the service user first establishes a connection, uses the connection,&#10;and then releases the connection.">
+      </outline>
+      <outline text="connectionless" _note="Connection service is modeled after postal system.  &#10;Each message carries the full destination address and **each one is&#10;routed through the** **intermediate nodes inside the system independent&#10;of all the subsequent messages.**(P35)&#10;&#10;**store-and-forward switching**: intermediate nodes receive a message in&#10;full before sending it on to the next node.  &#10;**cut-through switching**: Before the message is completely received and&#10;the onward transmission of a message at a node start">
+      </outline>
+      <outline text="datagram service" _note="it does not return an acknowledgement to the sender.">
+      </outline>
+      <outline text="acknowledged datagram service" _note="return an acknowledge to the sender  &#10;party invitation.">
+      </outline>
+      <outline text="request-reply service" _note="send datagram containing a request and reply contains the answer.&#10;&#10;![](D:\OneDrive - Platinum\Uni\Semester 3\RN\Note\image-20201113103758793.png)">
+      </outline>
+    </outline>
+    <outline text="1.3.4 Service Primitives" _note="![](D:\OneDrive - Platinum\Uni\Semester 3\RN\Note\image-20201113142350000.png)&#10;&#10;![](D:\OneDrive - Platinum\Uni\Semester 3\RN\Note\image-20201113142629624.png)">
+    </outline>
+    <outline text="1.3.5 The Relationship of Services to Protocols" _note="**Service** is a set of primitives that a layer provides to the layer&#10;above it.&#10;&#10;**The service and the protocol are completely decoupled.**  &#10;Entities use protocols to implement their service definitions.   &#10;Entities are free to change their protocols at will, provided they do&#10;not change the service visible to their users.&#10;&#10;实体(entity) 表示任何可发送或接收信息的硬件或软件进程。  &#10;协议是控制两个对等实体进行通信的规则的集合。  &#10;在协议的控制下，两个对等实体间的通信使得本层能够向上一层提供服务。  &#10;要实现本层协议，还需要使用下层所提供的服务。  &#10;本层的服务用户只能看见下一层的服务而无法看见下面的协议。  &#10;下面的协议对上面的服务用户是透明的。  &#10;协议是“水平的”，即协议是控制对等实体之间通信的规则。  &#10;服务是“垂直的”，即服务是由下层向上层通过层间接口提供的。">
+    </outline>
+  </outline>
+  <outline text="1.4 Reference Models" _note="OSI protocol not used anymore, but the model is general and valid.&#10;&#10;TCP/IP protocol used a lot, but the model do not used.">
+    <outline text="1.4.1 The OSI Reference Model" _note="**OSI: Open system interaction**&#10;&#10;1.  A layer should be created where a different abstraction is needed.&#10;&#10;2.  Each layer should perform a well-defined function.&#10;&#10;3.  The function of each layer should be chosen with an eye toward&#10;    defining internationally standardized protocols.&#10;&#10;4.  he layer boundaries should be chosen to minimize the information&#10;    flow across the interfaces.&#10;&#10;5.  he number of layers should be large enough that distinct functions&#10;    need not be thrown together in the same layer out of necessity and&#10;    small enough that the architecture does not become unwieldy.&#10;&#10;![](D:\OneDrive - Platinum\Uni\Semester 3\RN\Note\image-20201113154731158.png)">
+      <outline text="The Physical Layer 物理层" _note="The physical layer is concerned with transmitting raw bits over a&#10;communication channel.">
+      </outline>
+      <outline text="The Data Link Layer 数据链路层" _note="The main task of the data link layer is to transform a raw transmission&#10;facility into a line that appears free of undetected transmission&#10;errors.">
+      </outline>
+      <outline text="The Network Layer 网络层" _note="The network layer controls the operation of the subnet.  &#10;Start of each conversation.  &#10;Handling congestion.  &#10;the quality of service">
+      </outline>
+      <outline text="The Transport Layer 传输层" _note="Accept data from above the layer, split it up into smaller units if need&#10;be, pass these to the network layer, split it up into smaller units if&#10;need be, pass these to the network layer, and ensure that the pieces all&#10;arrive correctly at the other end. All this must be done efficiently and&#10;in a way that isolates the upper layers from the inevitable changes in&#10;the hardware technology over the course of the time.&#10;&#10;Determine what type of service to provide to the session layer and to&#10;the users of the network.&#10;&#10;true end-to-end layer">
+      </outline>
+      <outline text="The Session Layer 会话层" _note="Allow users on different machines to establish sessions between them.">
+      </outline>
+      <outline text="The Presentation Layer 表现层" _note="Concerned with the syntax and semantics of the information transmitted.&#10;Manages the abstract data structures and allows higher-level data&#10;structures to be defined and exchanged.’">
+      </outline>
+      <outline text="The Application Layer 应用层" _note="Contains a variety of protocols that are commonly needed by users">
+      </outline>
+    </outline>
+    <outline text="1.4.2 The TCP/IP Reference Model" _note="A flexible architecture was needed&#10;&#10;packet-switching network 分组交换网络&#10;&#10;![](D:\OneDrive - Platinum\Uni\Semester 3\RN\Note\image-20201118105211488.png)">
+      <outline text="The Link Layer 链路层" _note="Describes what links such as serial lines and classic Ethernet must do&#10;to meet the needs of the connectionless internet layer">
+      </outline>
+      <outline text="The Internet Layer Internet网络层" _note="Permit hosts to inject packets into any network and have them travel&#10;independently to the destination.">
+      </outline>
+      <outline text="The Transport Layer 传输层" _note="Allow peer entities on the source and destination hosts to carry on a&#10;conversation, just as in the OSI transport layer.">
+        <outline text="TCP" _note="reliable connection-oriented protocol  &#10;Allow a byte stream originating on one machine to be delivered without&#10;error on any other machine in the internet  &#10;use flow control  &#10;make sure a fast sender cannot swamp a slow receiver with more messages&#10;than it can handle">
+        </outline>
+        <outline text="UDP" _note="Use user’s own flow control">
+        </outline>
+      </outline>
+      <outline text="The Application Layer 应用层" _note="Include any session and presentation functions, the user need network&#10;service will be showed at here.&#10;&#10;![](D:\OneDrive - Platinum\Uni\Semester 3\RN\Note\image-20201118151123799.png)">
+      </outline>
+    </outline>
+  </outline>
+</outline>
+<outline text="The Physical Layer" _note="The physical layer defines the electrical, timing and other interfaces&#10;by which bits are sent as signals over channels.">
+  <outline text="2.1 The Theoretical Basis for Data Communication">
+  </outline>
+  <outline text="2.1.1 Fourier Analysis 傅里叶分析" _note="2-1">
+  </outline>
+  <outline text="2.1.2 Bandwidth-Limited Signals 带宽限制信号？" _note="**bandwidth**: The width of the frequency range transmitted without&#10;being strongly attenuated is called the **bandwidth**.&#10;&#10;**baseband**: signals that run from 0 up to a maximum frequency are&#10;called baseband signals.&#10;&#10;**passband**:Signals that are shifted to occupy a higher range of&#10;frequencies, as is the case for all wireless transmissions, are called&#10;passband signals">
+  </outline>
+  <outline text="2.2 Guided Transmission Meida">
+    <outline text="2.2.1 Magnetic Media" _note="expensive but efficient">
+    </outline>
+    <outline text="2.2.2 Twisted Pairs" _note="two insulated copper wires, typically about 1mm thick.&#10;&#10;When the wires are twisted, the waves from different twists cancel out,&#10;so the wire radiates less effectively.&#10;&#10;**Category 5**: A category 5 twisted pair consists of two insulated&#10;wires gently twisted together. Four such pairs are typically grouped in&#10;a plastic sheath to protect the wires and keep them together.&#10;&#10;**full-duplex**: 全双工线 can transmit data two directions at the same&#10;time.&#10;&#10;**half-duplex**: can transmit data one direction at the same time&#10;&#10;**simplex**: only one direction">
+    </outline>
+    <outline text="2.2.3 Coaxial Cable" _note="has been replaced by fiber optics on longhaul routes">
+    </outline>
+  </outline>
+</outline>
+  </body>
+</opml>

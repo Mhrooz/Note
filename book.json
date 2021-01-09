@@ -1,0 +1,8 @@
+{
+	"plugins": ["mathjax","disqus"],
+	"pluginsConfig": {
+       		 "disqus": {
+            			"shortName": "mhrooz"
+        		}
+	}
+}
