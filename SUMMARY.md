@@ -9,4 +9,6 @@
 	* [The Medium Access Control 媒介存储控制](RN/The_Medium_Access_Control_Sublayer.md)
 * [BS 操作系统]
 	* [Memory Management 内存管理](BS/内存管理.md)
-
+	* [Process and Thread 进程和线程](BS/进程与线程.md)
+* [Logik 逻辑学]
+	* [Automic Sentences 原子语句](Logik/Automic_Sentences.md)
