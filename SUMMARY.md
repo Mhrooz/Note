@@ -11,4 +11,7 @@
 	* [Memory Management 内存管理](BS/内存管理.md)
 	* [Process and Thread 进程和线程](BS/进程与线程.md)
 * [Logik 逻辑学]
-	* [Automic Sentences 原子语句](Logik/Automic_Sentences.md)
+  * [Automic Sentences 原子语句](Logik/Automic_Sentences.md)
+
+* [Business Studies 商业研究]
+	* [Introduction 介绍](Business_studies/Introduction.md)
